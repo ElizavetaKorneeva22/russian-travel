@@ -1,9 +1,4 @@
 .place__paragraphs {
   display: flex;
   flex-direction: column;
-  margin-bottom: 26px;
-}
-
-.place__paragraphs:last-child {
-  margin-bottom: 0;
 }

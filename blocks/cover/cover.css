@@ -3,6 +3,7 @@
   box-sizing: border-box;
   width: 100%;
   margin: 92px auto 0;
+  align-self: center;
 }
 
 @media screen and (max-width: 984px) {
