@@ -8,6 +8,7 @@
   color: #FFFFFF;
   margin: 0;
   padding: 0;
+  align-self: end;
 }
 
 @media screen and (max-width: 1140px) {

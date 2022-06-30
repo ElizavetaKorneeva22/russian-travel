@@ -1,14 +1,21 @@
 .footer {
   max-width: 1184px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   margin: 92px auto 24px;
-  align-self: center;
 }
+
+/* На большом разрешении footer ломается - сжимается к центру. 
+Возможно, из-за того, что вся страница - флекс-контейнер. 
+Мы с наставником и старшим студентом сломали голову, 
+но не смогли никак решить этот момент. 
+Когда работа будет возвращена, убедительная просьба - 
+дайте, пожалуйста, наводку - что с этим делать? :( */
 
 @media screen and (max-width: 1140px) {
   .footer {
-    margin: 92px 42px 24px;
+    margin: 92px 48px 24px;
   }
 }
 
@@ -23,5 +30,6 @@
     flex-direction: column;
     align-items: flex-start;
     margin-left: 16px;
+    margin-top: 0;
   }
 }

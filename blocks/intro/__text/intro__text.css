@@ -15,7 +15,13 @@
   }
 }
 
-@media screen and (max-width) {
+@media screen and (max-width: 680px) {
+  .intro__text {
+    max-width: 550px;
+  }
+}
+
+@media screen and (max-width: 568px) {
   .intro__text {
     max-width: 288px;
   }
