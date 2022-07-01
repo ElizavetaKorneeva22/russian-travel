@@ -9,4 +9,8 @@
     margin-bottom: 32px;
     line-height: 24px;
   }
+
+  .footer__link-item:last-child {
+    margin-bottom: 0;
+  }
 }
